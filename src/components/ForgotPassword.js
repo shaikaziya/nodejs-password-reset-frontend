@@ -11,7 +11,7 @@ const ForgotPassword = () => {
         const user = {
             email: email,                            
         };           
-        fetch("https://password-reset-110.herokuapp.com/users/forgot-password", {
+        fetch("https://resetpassword1.herokuapp.com//users/forgot-password", {
             method: "POST",
             body: JSON.stringify(user),
             headers: {
